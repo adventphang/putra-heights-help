@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: adventphang/putra-heights-help
   branch: main
+  base_url: https://adventphang.github.io/putra-heights-help
+  auth_endpoint: /admin/client.html
 
 media_folder: "docs/assets"
 public_folder: "/assets"
