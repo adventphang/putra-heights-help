@@ -1,9 +1,6 @@
 backend:
-  name: github
-  repo: adventphang/putra-heights-help
+  name: git-gateway
   branch: main
-  base_url: https://astro-decap-cms-oauth-seven.vercel.app
-  auth_endpoint: oauth
 
 media_folder: "docs/assets"
 public_folder: "/assets"
