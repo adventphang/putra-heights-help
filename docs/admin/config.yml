@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: adventphang/putra-heights-help  # Replace with your GitHub repo
+  name: git-gateway
   branch: main                          # Or whatever your default branch is
 
 media_folder: "docs/assets"
