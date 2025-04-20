@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: adventphang/putra-heights-help  # Replace with your GitHub repo
+  branch: main                          # Or whatever your default branch is
+
+media_folder: "docs/assets"
+public_folder: "/assets"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    folder: "docs"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
